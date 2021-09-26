@@ -1,0 +1,47 @@
+body {
+    background-image: url('img/bg2.jpeg');    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center left;    
+}
+
+.relogio {
+    background-color: rgb(232, 214, 212, .5);    
+    width: 50%;
+    height: 200px;
+    margin: 100px auto;
+    font-size: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: #000;
+}
+
+.contadores {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: 50px auto;
+}
+
+.contadores__btn--start,
+.contadores__btn--stop,
+.contadores__btn--reset {
+    background-color: rgb(232, 214, 212, .5);
+    font-size: 1.75em;
+    width: 120px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color:#000;
+}
+
+.contadores__btn--start:hover,
+.contadores__btn--stop:hover,
+.contadores__btn--reset:hover {
+    background-color: rgb(32, 40, 25);
+    color: #fff;
+    border: 1px solid #fff;
+}
